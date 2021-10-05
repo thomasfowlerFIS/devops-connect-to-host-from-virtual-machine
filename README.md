@@ -21,9 +21,18 @@ to communicate with the host machine.
 
 ### **Configuring the Netowrk**
 
+One way to configure communication between the guest VM and
+the host is to configure a host-only network on the VM. This
+way the guest VM and host share the host-only network, allowing
+the guest VM to connect to the host machine. 
+
 --------------------------------------------
 
 ### **Guest to Host Communication**
+
+With the network configured with the host-only network,
+the guest VM is able to connect to the host machine via
+`ssh`.
 
 --------------------------------------------
 
